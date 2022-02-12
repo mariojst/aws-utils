@@ -28,3 +28,5 @@ SELECT nsp.nspname AS object_schema,
  -- and rol.rolname = current_user  --- remove this if you want to see all objects
  ORDER BY nsp.nspname, cls.relname;
 
+
+ALTER GROUP groupname ADD USER username
